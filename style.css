@@ -1,9 +1,51 @@
+body {
+  background-color: #E0F7FA;
+}
+
 h1 {
+  color: #640F2E;
+  font-family: Trattatello, fantasy;
+  text-align: center;
+  font-size: 50px;
+  font-variant: small-caps;
+}
+
+h2 {
   color: #640F2E;
   font-family: Helvetica, sans-serif;
 }
 
+h3 {
+  font-family: Avantgarde, "Trebuchet MS", sans-serif;
+}
+
 img {
-  width: 800px;
-  /*align: center;*/
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  font-family: Times, serif;
+}
+
+#McElroyQuote {
+  /*bold, red?*/
+  color: #FF5733;
+  font-variant: small-caps
+}
+
+.notme {
+  width: 85%;
+  max-width: 680px;
+}
+
+div.box {
+  width: 1000px;
+  padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    display: block;
+    margin: 0 auto;
 }
